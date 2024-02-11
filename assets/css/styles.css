@@ -1,0 +1,198 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Satisfy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Scroll behavior */
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* general styles */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 10%;
+  background-color: transparent;
+}
+
+/* hyperlinks */
+a {
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+/* to position the hyperlinks and button */
+.nav-links{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links a{
+    margin-right: 20px;
+}
+
+
+
+/* button popup-form */
+
+.box{
+    text-align: center;
+}
+
+.button{
+    font-size: 1em;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background: #403e3d;
+    border-radius: 50px;
+}
+
+.overlay{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.wrapper{
+    margin: 70px auto;
+    padding: 20px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.wrapper h2{
+    margin-top: 0;
+    color: #333;
+}
+
+.wrapper .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.wrapper .close:hover {
+	color: #06D85F;
+}
+
+.wrapper .content{
+    max-height: 30%;
+    overflow: auto;
+}
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* form design */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2{
+    padding-bottom: 10px;
+}
+
+form label {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    align-self: flex-end; /* Align the submit button to the end (right) of the container */
+    background-color: #413b3b;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* Header end*/
+
+/* Body start */
+
+/* main content */
+main {
+    display:flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+/* hero */
+#hero{
+    height: 90vh;
+    width: 100%;
+    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/hero.jpg) no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -100;
+    
+}
+
+#hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#h1-hero{
+    color: #ffffff;
+    font-size: 50px;
+}
