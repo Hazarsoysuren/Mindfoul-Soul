@@ -54,11 +54,13 @@ a {
 
 /* button popup-form */
 
-.box{
+/* Center the box */
+.box {
     text-align: center;
 }
 
-.button{
+/* Style for the button */
+.button {
     font-size: 1em;
     padding: 15px 35px;
     color: #fff;
@@ -69,8 +71,9 @@ a {
     border-radius: 50px;
 }
 
-.overlay{
-    position:fixed;
+/* Overlay styles */
+.overlay {
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -81,7 +84,8 @@ a {
     opacity: 0;
 }
 
-.wrapper{
+/* Wrapper styles */
+.wrapper {
     margin: 70px auto;
     padding: 20px;
     background: #e7e7e7;
@@ -91,12 +95,14 @@ a {
     transition: all 5s ease-in-out;
 }
 
-.wrapper h2{
+/* Header inside wrapper */
+.wrapper h2 {
     margin-top: 0;
     color: #333;
 }
 
-.wrapper .close{
+/* Close button */
+.wrapper .close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -107,36 +113,42 @@ a {
     color: #333;
 }
 
+/* Close button hover effect */
 .wrapper .close:hover {
-	color: #06D85F;
+    color: #a82424;
 }
 
-.wrapper .content{
+/* Content inside wrapper */
+.wrapper .content {
     max-height: 30%;
     overflow: auto;
 }
 
-.overlay:target{
+/* Show overlay when targetted */
+.overlay:target {
     visibility: visible;
     opacity: 1;
 }
 
-/* form design */
+/* Form design */
 .container {
     display: flex;
     flex-direction: column;
 }
 
-.container h2{
+/* Heading inside container */
+.container h2 {
     padding-bottom: 10px;
 }
 
+/* Label styles */
 form label {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 3px;
 }
 
+/* Input styles */
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -150,6 +162,7 @@ input[type="submit"] {
     resize: vertical;
 }
 
+/* Submit button styles */
 input[type="submit"] {
     align-self: flex-end; /* Align the submit button to the end (right) of the container */
     background-color: #413b3b;
@@ -161,6 +174,7 @@ input[type="submit"] {
     font-size: 15px;
     text-transform: uppercase;
 }
+
 
 /* Header end*/
 
@@ -195,4 +209,50 @@ main {
 #h1-hero{
     color: #ffffff;
     font-size: 50px;
+}
+/* hero ends */
+
+
+/* About us */
+#about-us{
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+#about-us-img{
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/aboutus.jpg) no-repeat center center/cover;;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+about-us-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+#textbox{
+    width: 50%;
+}
+
+#story p{
+    margin-top: 20px;
+    margin-bottom:40px;
+    font-size: large;
+}
+
+#story h2, p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#story h1{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin: bottom 20px;
+}
+
+#opening-box{
+
 }
