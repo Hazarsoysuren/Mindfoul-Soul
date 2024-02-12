@@ -220,16 +220,21 @@ main {
     justify-content: space-between;
     height: 60vh;
 }
-#about-us-img{
+#about-us-img {
     width: 50%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/aboutus.jpg) no-repeat center center/cover;;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/aboutus.jpg) no-repeat center center/cover;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-about-us-img img{
+#about-us-img img {
     max-width: 100%;
     height: auto;
+    display: block; 
 }
+
 
 #textbox{
     width: 50%;
@@ -253,6 +258,16 @@ about-us-img img{
   margin: bottom 20px;
 }
 
+/* Opening times */
+
+#opening-times{
+    display: flex;
+    height: 40vh;
+}
+
 #opening-box{
+    display: flex;
+
+    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/opening.jpg) no-repeat center center/cover;
 
 }
