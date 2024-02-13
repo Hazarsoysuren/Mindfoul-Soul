@@ -12,6 +12,7 @@
    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    
 </head>
 <body>
     <!-- Header -->
@@ -68,20 +69,90 @@
                 </div>
             </div>
             <div id="about-us-img">
-
             </div>
-
         </section>
 
         <section id="opening-times">
             <div id="opening-box">
-                
-                
+                <div id="time-card">
+                    <h2>Opening Times</h2>
+                    <div class="open-times">
+                        <span>Monday</span>
+                        <span>15-16:30</span>
+                    </div>
+                    <div class="open-times">
+                        <span>Tuesday</span>
+                        <span>15-16:30</span>
+                    </div>
+                    <div class="open-times">
+                        <span>Wednesday</span>
+                        <span>15-16:30</span>
+                    </div>
+                    <div class="open-times">
+                        <span>Thursday</span>
+                        <span>15-16:30</span>
+                    </div>
+                    <div class="open-times">
+                        <span>Friday</span>
+                        <span>15-16:30</span>
+                    </div>
+                    <div class="open-times">
+                        <span>Saturday</span>
+                        <span>17-18</span>
+                    </div>
+                    <div class="open-times">
+                        <span>Sunday</span>
+                        <span>Closed</span>
+                    </div>
+                </div>
             </div>
-
         </section>
+        <section id="contact-section">
+            <div id="contact-map">
+                <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1283.7449657855173!2d17.763557057268958!3d62.93309500869704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4664bf34fc8b828b%3A0xe8f532845116fac0!2sH%C3%A4llgumsgatan%2025A%2C%20872%2036%20Kramfors!5e0!3m2!1ssv!2sse!4v1707817377951!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="submit.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+        
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <ul id="social-networks">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)">
+                        <i class="fa-brands fa-facebook" style="color: #033b62;"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)">
+                        <i class="fa-brands fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)">
+                        <i class="fa-brands fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)">
+                        <i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+    
     </main>
 </body>
 
