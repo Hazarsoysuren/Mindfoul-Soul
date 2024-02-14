@@ -33,7 +33,7 @@ header {
 }
 
 /* hyperlinks */
-a {
+header a {
     color: #000000;
     font-weight: 500;
     font-size: 16px;
@@ -384,12 +384,26 @@ main {
 }
 /* contact ends */
 
-/* Footer Start */
+/* Footer */
 
 footer{
-    background-color: #242424f5;
+    background-color: #333;
 }
 
-#social-networks{
-   
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
+}
+
+.response-message{
+    display: none;
 }
