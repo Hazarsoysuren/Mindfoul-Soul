@@ -31,9 +31,14 @@
            <div class="wrapper">
             <h2 id="form-text">Fill in this form</h2>
             <a href="#" class="close">&times;</a>
-            <div class="content"></div>
+            <div class="content">
+                <div id="response-message" class="response-message">
+                    <h2>Thank you for submitting the form!</h2>
+                    <p>We will respond as soon as possible.</p>
+               </div>
+            </div>
                <div class="container">
-                <form action="response-message" method="POST" id="myForm">
+                <form onsubmit="return setAction(this)" id="myForm">
                       <label for="full_name">Full Name:</label>
                       <input type="text" name="full_name" id="full_name" required>
 
@@ -46,10 +51,6 @@
                       <input type="submit" value="Submit">
                    </form>
                </div>
-           </div>
-           <div id="response-message" class="response-message">
-            <h2>Thank you for submitting the form!</h2>
-            <p>We will respond as soon as possible.</p>
            </div>
         </div>
        </div>
@@ -168,3 +169,5 @@
 </body>
 
 </html>
+message.txt
+8 KB
