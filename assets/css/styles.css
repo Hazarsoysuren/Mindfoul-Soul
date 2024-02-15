@@ -32,6 +32,20 @@ header {
   background-color: transparent;
 }
 
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* hyperlinks */
 header a {
     color: #000000;
@@ -382,6 +396,13 @@ main {
 .contact-form button:hover {
     background-color: #0056b3;
 }
+
+iframe {
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+
+}
 /* contact ends */
 
 /* Footer */
@@ -406,4 +427,55 @@ footer{
 
 .response-message{
     display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+    .nav-toggle-label {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        justify-content: flex-end;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 80px; /* Adjust as needed */
+        left: 0;
+        width: 100%;
+    }
+
+    .nav-links a {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .nav-toggle:checked + .nav-toggle-label + .nav-links {
+        display: flex;
+    }
+
+    
+}
+
+@media screen and (min-width:1000px) {
+    .nav-toggle-label{
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    nav-toggle-label {
+        display: block;
+    }
+
+    .nav-toggle:checked + .nav-toggle-label + .nav-links {
+        display: block;
+    }
+
+    #become-member-button {
+        display: block;
+    }
+    
 }
