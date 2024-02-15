@@ -32,6 +32,19 @@ header {
   background-color: transparent;
 }
 
+.button{
+    margin-left: 40px;
+}
+
+.logo{
+    font-size: 20px;
+
+}
+
+.nav-links a {
+    margin-right: 20px;
+    font-size: 16px;
+}
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
@@ -43,7 +56,7 @@ header {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    display: none;
 }
 
 /* hyperlinks */
@@ -429,53 +442,80 @@ footer{
     display: none;
 }
 
-/* Media Queries */
 @media screen and (max-width: 1000px) {
-    .nav-toggle-label {
+   
+
+    .nav-toggle-label{
         display: block;
+        font-size: 24px;
+        cursor: pointer;
+        
     }
 
     .nav-links {
-        display: none;
-        justify-content: flex-end;
+        position: absolute;
+        right: -0;
+        top: 90px;
+        gap: 0;
         flex-direction: column;
         background-color: #fff;
-        position: absolute;
-        top: 80px; /* Adjust as needed */
-        left: 0;
-        width: 100%;
+        width: 30%;
+        border-radius: 5px;
+        margin-right: 10px;
+     
     }
 
-    .nav-links a {
-        padding: 15px;
-        text-align: center;
-    }
-
-    .nav-toggle:checked + .nav-toggle-label + .nav-links {
+    .nav-links > div{
         display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 
+    .pages {
+        
+        
+    }
+
+    .box{
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+   .nav-links.active{
+    left: 0;
+
+   }
+
+    .nav-toggle:checked ~nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    /* Adjustments for better spacing */
+    .button {
+        margin: 20px 0; /* Adjust margins as needed */
+    }
+
+    .logo {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+
+    /* Display the checkbox */
+    #nav-toggle {
+        display: none;
+    }
     
+    
+    
+    
+    
+    
+
+   
 }
 
-@media screen and (min-width:1000px) {
-    .nav-toggle-label{
-        display:none;
-    }
-    
-}
-
-@media screen and (max-width:768px) {
-    nav-toggle-label {
-        display: block;
-    }
-
-    .nav-toggle:checked + .nav-toggle-label + .nav-links {
-        display: block;
-    }
-
-    #become-member-button {
-        display: block;
-    }
-    
-}
