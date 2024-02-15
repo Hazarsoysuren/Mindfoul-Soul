@@ -6,12 +6,9 @@ function setAction(form) {
     return false;
   }
 
-  const navToggle = document.querySelector(".nav-toggle")
-  const navLinks = document.querySelector(".nav-links")
-  const NavToggleLabel = document.querySelector(".nav-toggle-label")
+  const navToggle = document.getElementById("nav-toggle");
+const navLinks = document.querySelector(".nav-links");
 
- navToggle.addEventListener("click", () =>  {
-   navToggle.classList.add("active")
-   NavToggleLabel.classList.add("active")
-   navLinks.classList.add("active")
- })
+navToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});

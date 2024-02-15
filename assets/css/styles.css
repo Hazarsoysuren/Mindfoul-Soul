@@ -78,6 +78,9 @@ header a {
     margin-right: 20px;
 }
 
+#member-link{
+    display: none;
+}
 
 
 /* button popup-form */
@@ -442,7 +445,7 @@ footer{
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
    
 
     .nav-toggle-label{
@@ -455,13 +458,15 @@ footer{
     .nav-links {
         position: absolute;
         right: -0;
-        top: 90px;
+        top: 100px;
         gap: 0;
         flex-direction: column;
         background-color: #fff;
-        width: 30%;
+        width: 33%;
+        
         border-radius: 5px;
         margin-right: 10px;
+        display: none;
      
     }
 
@@ -469,39 +474,30 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-around;
+        margin-top: 1vw;
     }
 
-    .pages {
-        
-        
+    .nav-links a{
+        margin: 1px;
+        padding: 10px;
     }
-
-    .box{
-        height: 10vh;
-        display: flex;
-        align-items: center;
-        margin: 0;
-    }
+    
 
    .nav-links.active{
     left: 0;
+    display: flex;
+    
 
    }
 
-    .nav-toggle:checked ~nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
+   .button{
+    display: none;
+   }
 
     /* Adjustments for better spacing */
-    .button {
-        margin: 20px 0; /* Adjust margins as needed */
-    }
-
+   
     .logo {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 24px; 
     }
 
 
