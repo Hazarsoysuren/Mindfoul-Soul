@@ -249,7 +249,7 @@ main {
     padding: 2px;
     display: flex;
     justify-content: space-between;
-    height: 60vh;
+    height: 80vh;
 }
 #about-us-img {
     width: 50%;
@@ -307,7 +307,8 @@ main {
     position: relative;
     width: 100%;
     height: 60vh;
-
+    background-size: cover;
+    position: relative;
     background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/opening.jpg) no-repeat center center/cover;
 
 }
@@ -351,6 +352,7 @@ main {
 #contact-section{
     display: flex;
     padding: 40px;
+    
 }
 
 #contact {
@@ -473,7 +475,7 @@ footer{
     .nav-links > div{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         margin-top: 1vw;
     }
 
@@ -506,8 +508,7 @@ footer{
         display: none;
     }
     
-    
-    
+   
     
     
     
@@ -515,3 +516,112 @@ footer{
    
 }
 
+@media screen and (max-width: 930px) {
+
+    #story h1{
+        font-size: 4.5vw;
+
+    }
+
+    #story h2{
+        font-size: 4.5vw;
+
+    }
+
+    #story p{
+        font-size: 2.31vw;
+
+    }
+
+    #about-us-img{
+        display: none;
+    }
+
+    #story{
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem auto ;
+    }
+
+    #about-us{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    #opening-times {
+        height: 100%; /* Adjust the height for smaller screens */
+        width: 100%;
+    }
+
+    #opening-box {
+        width: 100%; /* Adjust the width to occupy 90% of the viewport */
+        margin: 0 auto; /* Center the opening box */
+        padding: 20px; /* Add padding for better spacing */
+        overflow: hidden;
+        height: 100%;
+    }
+
+    #time-card {
+        width: 100%; /* Adjust the width to occupy 100% of the opening box */
+        height: 100%; /* Set the height to 80% of the viewport height */
+        padding: 20px; /* Add padding for better spacing */
+       
+        margin-top: 3px;
+        margin-bottom: 10px;
+       
+        
+
+    }
+
+    .open-times {
+        flex-direction: column; /* Change the direction to column for better stacking */
+        margin-bottom: 10px; /* Add margin for better spacing between items */
+        position: relative;
+    }
+
+    .open-times span:first-child {
+        margin-bottom: 5px; /* Add margin for better spacing between days and times */
+    }
+
+    #opening-box img {
+        max-width: 100%; /* Ensure the image remains fully visible */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
+}
+
+@media screen and (max-width: 635px) {
+
+    #about-us{
+        height: 100%;
+        width: 100%;
+    }
+
+    
+    #story h1 {
+        font-size: 24px; /* Adjust as needed */
+    }
+    
+    #story h2 {
+        font-size: 20px; /* Adjust as needed */
+    }
+    
+    #story p {
+        font-size: 16px; /* Adjust as needed */
+    }
+    
+
+    #contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-form{
+        width: 100%;
+    }
+
+    #contact-map{
+        width: 100%;
+    }
+    
+}
