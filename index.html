@@ -23,16 +23,16 @@
           <i class="fa-solid fa-bars"></i>
        </label>
        <nav class="nav-links">
-        <div>
+        <div class="div-page">
             <a href="#" class="pages">About Us</a>
         </div>
-        <div>
+        <div class="div-page">
             <a href="#" class="pages">Opening Times</a>
         </div>
-        <div>
+        <div class="div-page"> 
             <a href="#" class="pages">Contact Us</a>
         </div>
-        <div>
+        <div class="div-page">
             <a href="#divOne" id="pages">Become a Member</a>
         </div>
           <div class="box">
@@ -75,7 +75,7 @@
 
     <!-- Main content -->
     <main>
-        <section id="hero">
+        <section id="hero" alt="Image of women meditating">
             <div id="hero-text"><h1 id="h1-hero">Discover inner peace through meditation</h1></div>
         </section>
 
@@ -94,7 +94,7 @@
                   </div>
                 </div>
             </div>
-            <div id="about-us-img">
+            <div id="about-us-img" alt="Image of women meditating">
             </div>
         </section>
 
@@ -140,7 +140,7 @@
             </div>
             <div class="contact-form">
                 <h2>Contact Us</h2>
-                <form action="submit.php" method="post">
+                <form onsubmit="return setAction(this)">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
         
