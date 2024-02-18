@@ -276,22 +276,22 @@ main {
     width: 50%;
 }
 
-#story{
+.story{
     margin-top: 70px;
 }
 
-#story p{
+.story p{
     margin-top: 20px;
     margin-bottom:40px;
     font-size: large;
 }
 
-#story h2, p {
+.story h2, p {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#story h1{
+.story h1{
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;
