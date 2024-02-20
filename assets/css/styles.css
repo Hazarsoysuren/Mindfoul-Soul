@@ -452,6 +452,12 @@ footer{
     display: none;
 }
 
+@media screen and (min-width: 1200px){
+  #member{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1200px) {
    
 
@@ -513,12 +519,6 @@ footer{
         display: none;
     }
     
-   
-    
-    
-    
-
-   
 }
 
 @media screen and (max-width: 930px) {
@@ -555,7 +555,7 @@ footer{
     }
 
     #opening-times {
-        height: 100%; /* Adjust the height for smaller screens */
+        height: 100%; 
         width: 100%;
     }
 
@@ -608,15 +608,15 @@ footer{
 
     
     #story h1 {
-        font-size: 24px; /* Adjust as needed */
+        font-size: 24px; 
     }
     
     #story h2 {
-        font-size: 20px; /* Adjust as needed */
+        font-size: 20px; 
     }
     
     #story p {
-        font-size: 16px; /* Adjust as needed */
+        font-size: 16px; 
     }
     
 

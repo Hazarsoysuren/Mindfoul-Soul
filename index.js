@@ -7,10 +7,10 @@ function setAction(form) {
 }
 
 function setAction(form) {
-  event.preventDefault(); // Prevent the default form submission behavior
-  // Get the button element
+  event.preventDefault(); 
+  
   var button = form.querySelector("button");
-  // Replace the button with a text node saying "Sent"
+ 
   button.parentNode.replaceChild(document.createTextNode("Sent"), button);
   return false;
 }
@@ -21,3 +21,4 @@ const navLinks = document.querySelector(".nav-links");
 navToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
+
