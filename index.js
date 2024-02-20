@@ -6,14 +6,14 @@ function setAction(form) {
   return false;
 }
 
-function setAction(form) {
-  event.preventDefault(); 
-  
-  var button = form.querySelector("button");
- 
-  button.parentNode.replaceChild(document.createTextNode("Sent"), button);
-  return false;
-}
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent default form submission
+
+  // Replace the submit button with text saying "Sent"
+  var submitButton = document.getElementById("contactForm").querySelector("button[type='submit']");
+  submitButton.parentNode.innerHTML = "<p>Sent</p>";
+  return false; // Prevent further event propagation
+});
 
   const navToggle = document.getElementById("nav-toggle");
 const navLinks = document.querySelector(".nav-links");
@@ -21,4 +21,6 @@ const navLinks = document.querySelector(".nav-links");
 navToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
+
+
 
