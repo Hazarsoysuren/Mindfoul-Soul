@@ -7,14 +7,18 @@ function setAction(form) {
 }
 
 document.getElementById("contactForm").addEventListener("submit", function(event) {
-  event.preventDefault(); // Prevent default form submission
+  event.preventDefault(); // Prevent form submission
 
-  // Replace the submit button with text saying "Sent"
+  // Get the submit button
   var submitButton = document.getElementById("contactForm").querySelector("button[type='submit']");
-  submitButton.parentNode.innerHTML = "<p>Sent</p>";
-  return false; // Prevent further event propagation
-});
 
+  // Create a new element for the "Sent" message
+  var sentMessage = document.createElement("p");
+  sentMessage.textContent = "Sent";
+
+  // Replace the submit button with the "Sent" message
+  submitButton.parentNode.replaceChild(sentMessage, submitButton);
+});
   const navToggle = document.getElementById("nav-toggle");
 const navLinks = document.querySelector(".nav-links");
 
