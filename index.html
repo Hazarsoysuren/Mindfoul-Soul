@@ -152,7 +152,8 @@
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
         
-                    <button type="submit">Send</button>
+                    <button id="send-button" type="button">Send</button>
+                    <span id="replacement-text" style="display:none;">Sent</span>
                 </form>
             </div>
         </section>
@@ -185,5 +186,18 @@
         </ul>
     </footer>
 </body>
+<script>
+    document.getElementById('send-button').addEventListener('click', function(event) {
+        replaceButton();
+    });
+    
+    function replaceButton() {
+        // Hide the button
+        document.getElementById('send-button').style.display = 'none';
+      
+        // Display the replacement text
+        document.getElementById('replacement-text').style.display = 'inline';
+    }
+    </script>
 
 </html>

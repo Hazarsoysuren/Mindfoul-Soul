@@ -6,20 +6,24 @@ function setAction(form) {
   return false;
 }
 
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-  event.preventDefault(); // Prevent form submission
-
-  // Get the submit button
-  var submitButton = document.getElementById("contactForm").querySelector("button[type='submit']");
-
-  // Create a new element for the "Sent" message
-  var sentMessage = document.createElement("p");
-  sentMessage.textContent = "Sent";
-
-  // Replace the submit button with the "Sent" message
-  submitButton.parentNode.replaceChild(sentMessage, submitButton);
+document.getElementById("myBtn").addEventListener("click", function(){
+  document.getElementById("demo").innerHTML = "Hello World";
+  event.preventDefault();
 });
-  const navToggle = document.getElementById("nav-toggle");
+
+document.getElementById('send-button').addEventListener('click', function(event) {
+  replaceButton();
+});
+
+function replaceButton() {
+  // Hide the button
+  document.getElementById('send-button').style.display = 'none';
+
+  // Display the replacement text
+  document.getElementById('replacement-text').style.display = 'inline';
+}
+  
+const navToggle = document.getElementById("nav-toggle");
 const navLinks = document.querySelector(".nav-links");
 
 navToggle.addEventListener("click", () => {

@@ -426,6 +426,11 @@ iframe {
     padding-right: 20px;
 
 }
+
+#replacement-text {
+    display: none; /* Hide the replacement text initially */
+  }
+
 /* contact ends */
 
 /* Footer */
