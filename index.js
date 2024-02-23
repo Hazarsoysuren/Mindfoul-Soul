@@ -6,22 +6,6 @@ function setAction(form) {
   return false;
 }
 
-document.getElementById("myBtn").addEventListener("click", function(){
-  document.getElementById("demo").innerHTML = "Hello World";
-  event.preventDefault();
-});
-
-document.getElementById('send-button').addEventListener('click', function(event) {
-  replaceButton();
-});
-
-function replaceButton() {
-  // Hide the button
-  document.getElementById('send-button').style.display = 'none';
-
-  // Display the replacement text
-  document.getElementById('replacement-text').style.display = 'inline';
-}
   
 const navToggle = document.getElementById("nav-toggle");
 const navLinks = document.querySelector(".nav-links");
