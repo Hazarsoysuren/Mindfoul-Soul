@@ -1,2 +1,4 @@
 # Mindfoul-Soul
-!disclaimer mindfoul soul is not a real meditation group it's purpose serves for personal education and for others.
+Mindfoul Soul is a single page website, that is mostly for teenagers and adults. It's a about a meditation club who's open about gathering new people and share their journey with meditating.
+
+The users of this website will be able to navigate through three different pages which contains contact, opening times and generally what mindfoul souls is a about.
