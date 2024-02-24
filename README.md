@@ -21,21 +21,21 @@ The users of this website will be able to navigate through three different pages
 - About us
  - The about us section gives a touch of mindfoul souls story and what they are on about to the user.
  - This section is important for those who don't know what mindfoul souls dedication and goals are towards too.
- ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/hero.png?raw=true)
+ ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/aboutus.png?raw=true)
 
 
 - Opening times
  - This section gives the users information on when mindfoul soul is open.
  - Its design gives a good look, and there is space between the day and open times.
- ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/hero.png?raw=true)
+ ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/opentimes.png?raw=true)
 
 
 -Contact Us
  - On the left there is a map to give the user the location of Mindfoul Soul.
  - On the Right there is a Form for the users who have questions to the owner.
- ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/hero.png?raw=true)
+ ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/contact-us.png?raw=true)
 
 
 -Footer
  - The footer gives a link to Mindfoul Souls Social medias. 
- ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/hero.png?raw=true)
+ ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/footer.png?raw=true)
