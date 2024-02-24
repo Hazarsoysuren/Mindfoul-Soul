@@ -30,12 +30,25 @@ The users of this website will be able to navigate through three different pages
  ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/opentimes.png?raw=true)
 
 
--Contact Us
+- Contact Us
  - On the left there is a map to give the user the location of Mindfoul Soul.
  - On the Right there is a Form for the users who have questions to the owner.
  ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/contact-us.png?raw=true)
 
 
--Footer
+- Footer
  - The footer gives a link to Mindfoul Souls Social medias. 
  ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/footer.png?raw=true)
+
+# Testing
+- I've confirmed that this site is responsive on all devices.
+- Its confirmed that all buttons and forms works as they should.
+- I have confirmed that the sites text is readable on all devices.
+
+# Validator Testing
+- HTML
+ - There were no errors on the Official W3C Validator.
+- CSS
+ - No errors were found on the Official (Jigsaw) Validator.
+- Accessibility
+ - I made sure that the fonts and colors are easy to read for the users.
