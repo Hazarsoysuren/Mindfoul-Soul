@@ -9,7 +9,7 @@ The users of this website will be able to navigate through three different pages
   - Shown to the left of the navbar is the logo, it says mindfoul soul. Its not interactive since its a single page and the header is non sticky.
   - To the right you have the links to the three different sections of the page About us, Opening times and Contact us.
   - To the right of the links you have a button Become a member which is used for to send an application to the owner of the club.
-  ![Image of the navbar](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/image.png?raw=true)
+  ![Image of the navbar](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/navbar.png?raw=true)
 
 
 - The Hero section
@@ -47,9 +47,9 @@ The users of this website will be able to navigate through three different pages
 - I have confirmed that the sites text is readable on all devices.
 
 # Validator Testing
- HTML
+## HTML
  - There were no errors on the Official W3C Validator.
- CSS
+## CSS
  - No errors were found on the Official (Jigsaw) Validator.
- Accessibility
+## Accessibility
  - I made sure that the fonts and colors are easy to read for the users.
