@@ -54,6 +54,10 @@ The users of this website will be able to navigate through three different pages
 ## Accessibility
  - I made sure that the fonts and colors are easy to read for the users.
 
-![Image of the footer](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/footer.png?raw=true)
+![Image of performance](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/performance.png?raw=true)
 
 ## Credits
+# Content
+- The code for the footer is from love running project
+# Media 
+- Most pictures are from pexels or unsplash.
