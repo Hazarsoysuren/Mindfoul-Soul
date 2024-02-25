@@ -53,3 +53,7 @@ The users of this website will be able to navigate through three different pages
  - No errors were found on the Official (Jigsaw) Validator.
 ## Accessibility
  - I made sure that the fonts and colors are easy to read for the users.
+
+![Image of the footer](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/footer.png?raw=true)
+
+## Credits
