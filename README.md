@@ -2,6 +2,7 @@
 Mindfoul Soul is a single page website, that is mostly for teenagers and adults. It's a about a meditation club who's open about gathering new people and share their journey with meditating.
 
 The users of this website will be able to navigate through three different pages which contains contact, opening times and generally what mindfoul souls is a about.
+![Image of the am i responsive](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/responsiveimg.png?raw=true)
 
 # Features
 - Navigation
@@ -21,24 +22,24 @@ The users of this website will be able to navigate through three different pages
 - About us
  - The about us section gives a touch of mindfoul souls story and what they are on about to the user.
  - This section is important for those who don't know what mindfoul souls dedication and goals are towards too.
- ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/aboutus.png?raw=true)
+ ![Image of the about us](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/aboutus.png?raw=true)
 
 
 - Opening times
  - This section gives the users information on when mindfoul soul is open.
  - Its design gives a good look, and there is space between the day and open times.
- ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/opentimes.png?raw=true)
+ ![Image of the opening times](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/opentimes.png?raw=true)
 
 
 - Contact Us
  - On the left there is a map to give the user the location of Mindfoul Soul.
  - On the Right there is a Form for the users who have questions to the owner.
- ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/contact-us.png?raw=true)
+ ![Image of the contact us](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/contact-us.png?raw=true)
 
 
 - Footer
  - The footer gives a link to Mindfoul Souls Social medias. 
- ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/footer.png?raw=true)
+ ![Image of the footer](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/footer.png?raw=true)
 
 # Testing
 - I've confirmed that this site is responsive on all devices.
@@ -46,9 +47,9 @@ The users of this website will be able to navigate through three different pages
 - I have confirmed that the sites text is readable on all devices.
 
 # Validator Testing
-- HTML
+ HTML
  - There were no errors on the Official W3C Validator.
-- CSS
+ CSS
  - No errors were found on the Official (Jigsaw) Validator.
-- Accessibility
+ Accessibility
  - I made sure that the fonts and colors are easy to read for the users.
