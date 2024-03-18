@@ -188,9 +188,30 @@
 </body>
 <script>
     document.getElementById('send-button').addEventListener('click', function(event) {
-        replaceButton();
+        // Prevent the default form submission behavior
+        event.preventDefault();
+        
+        // Call the validateForm function to check if the form is valid
+        if (validateForm()) {
+            replaceButton(); // Replace the button if the form is valid
+        }
     });
-    
+
+    function validateForm() {
+        // Get form inputs
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email2').value;
+        var message = document.getElementById('message').value;
+
+        // Check if any of the required fields are empty
+        if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+            alert('Please fill in all fields.');
+            return false; // Form is not valid
+        }
+
+        return true; // Form is valid
+    }
+
     function replaceButton() {
         // Hide the button
         document.getElementById('send-button').style.display = 'none';

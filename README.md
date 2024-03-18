@@ -49,7 +49,7 @@ The users of this website will be able to navigate through three different pages
 ### Validator Testing
 - HTML
    - There were no errors on the Official W3C Validator.
-CSS
+- CSS
    - No errors were found on the Official (Jigsaw) Validator.
 ### Accessibility
  - I made sure that the fonts and colors are easy to read for the users.
