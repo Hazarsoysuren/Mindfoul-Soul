@@ -6,16 +6,14 @@ The users of this website will be able to navigate through three different pages
 
 # Features
 - Navigation
-    - Shown to the left of the navbar is the logo, it says mindfoul soul. Its not interactive since its a single page and the header is non sticky.
-    - To the right you have the links to the three different sections of the page About us, Opening times and Contact us.
+    - This section will allow the users to navigate easily and become a member with just filling in a form. The section includes everything the site contains.
     - To the right of the links you have a button Become a member which is used for to send an application to the owner of the club.
   ![Image of the navbar](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/navbar.png?raw=true)
 
 
 - The Hero section
-   - In the hero section theres an background image and text
-   - The images shows of a women meditating on the landscapes 
-   - The text says Discover inner peace through meditation with a font that gives a sensation of calmness and peace.
+ 
+     - The landing page features a captivating photograph with text overlay, providing users with an immediate glimpse of Mindfoul Soul. This section incorporates an attention-grabbing animation, enticing users to engage with the content.
   ![Image of the hero](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/hero.png?raw=true)
 
 
