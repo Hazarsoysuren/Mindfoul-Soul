@@ -51,15 +51,15 @@ The users of this website will be able to navigate through three different pages
 ### Unfixed Bugs
 There are currently no bugs as of what i know.
 
-### Validator Testing
-- HTML
-   - There were no errors on the [Official W3C Validator](https://validator.w3.org).
-- CSS
-   - No errors were found on the [Official (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/).
+
+
 ### Accessibility
  - I made sure that the fonts and colors are easy to read for the users.
-
-![Image of the colors](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/performance.png?raw=true)
+### Validator Testing
+| URL | Screenshot |Notes |
+|-----------------|-----------------|-----------------|
+| HTML |(https://validator.w3.org) | Pass: No Errors |
+| CSS | (https://validator.w3.org) | Pass: No Errors |
 
 ## Credits
 ### Content
@@ -70,8 +70,12 @@ There are currently no bugs as of what i know.
     - The font i used is poppins from [Google fonts](https://fonts.google.com)
 - Colors
     - These 5 colors were mainly used.
+    ![Image of the colors](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/mindfoul%20soul.png?raw=true)
 ### Media 
 - All pictures are from [Pexels](https://www.pexels.com) or [unsplash](https://unsplash.com).
+
+### Acknowledgements
+- I want to give a Special thanks to Code Institute for its resources and a thanks to its community for the support.
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the Settings tab
