@@ -39,23 +39,42 @@ The users of this website will be able to navigate through three different pages
    - The footer gives a link to Mindfoul Souls Social medias. 
  ![Image of the footer](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/footer.png?raw=true)
 
+
+
+
+
 ## Testing
 - I've confirmed that this site is responsive on all devices.
 - Its confirmed that all buttons and forms works as they should.
 - I have confirmed that the sites text is readable on all devices.
 
+### Unfixed Bugs
+There are currently no bugs as of what i know.
+
 ### Validator Testing
 - HTML
-   - There were no errors on the Official W3C Validator.
+   - There were no errors on the [Official W3C Validator](https://validator.w3.org).
 - CSS
-   - No errors were found on the Official (Jigsaw) Validator.
+   - No errors were found on the [Official (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/).
 ### Accessibility
  - I made sure that the fonts and colors are easy to read for the users.
 
-![Image of performance](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/performance.png?raw=true)
+![Image of the colors](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/performance.png?raw=true)
 
 ## Credits
 ### Content
-- The code for the footer is from love running project
+- The design for the footer was an inspiration from Love Running project.
+- The popup form was taken from this tutorial (https://www.youtube.com/watch?v=gT58QZTOhns)
+### Styling
+- Font
+    - The font i used is poppins from [Google fonts](https://fonts.google.com)
+- Colors
+    - These 5 colors were mainly used.
 ### Media 
-- Most pictures are from pexels or unsplash.
+- All pictures are from [Pexels](https://www.pexels.com) or [unsplash](https://unsplash.com).
+## Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    - The live link can be found here - (https://hazarsoysuren.github.io/Mindfoul-Soul/)
