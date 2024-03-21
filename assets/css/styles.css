@@ -49,6 +49,7 @@ header {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    
 }
 
 #nav-toggle {
@@ -227,7 +228,7 @@ main {
 #hero{
     height: 90vh;
     width: 100%;
-    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/hero.jpg?raw=true) no-repeat center center/cover;
+    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/hero.jpg) no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -258,7 +259,7 @@ main {
 }
 #about-us-img {
     width: 50%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/aboutus.jpg?raw=true) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/aboutus.jpg) no-repeat center center/cover;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     display: flex; 
     justify-content: center; 
@@ -295,7 +296,7 @@ main {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;
-  margin-bottom:  20px;
+  margin: bottom 20px;
 }
 
 /* Opening times */
@@ -314,7 +315,7 @@ main {
     height: 60vh;
     background-size: cover;
     position: relative;
-    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/opening.jpg?raw=true)  no-repeat center center/cover;
+    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/opening.jpg)  no-repeat center center/cover;
 
 }
 
@@ -502,7 +503,7 @@ footer{
     
 
    .nav-links.active{
-    left: 0;
+    left: 60;
     display: flex;
     
 
@@ -642,4 +643,78 @@ footer{
         width: 90%;
     }
     
+}
+
+@media screen and (max-width: 1050px) {
+
+    #story h1{
+        font-size: 4.5vw;
+
+    }
+
+    #story h2{
+        font-size: 4.5vw;
+
+    }
+
+    #story p{
+        font-size: 2.31vw;
+
+    }
+
+    #about-us-img{
+        display: none;
+    }
+
+    #story{
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem auto ;
+    }
+
+    #about-us{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    #opening-times {
+        height: 100%; 
+        width: 100%;
+    }
+
+    #opening-box {
+        width: 100%; 
+        margin: 0 auto; 
+        padding: 20px; /* Add padding for better spacing */
+        overflow: hidden;
+        height: 100%;
+    }
+
+    #time-card {
+        width: 100%; /* Adjust the width to occupy 100% of the opening box */
+        height: 100%; /* Set the height to 80% of the viewport height */
+        padding: 20px; /* Add padding for better spacing */
+       
+        margin-top: 3px;
+        margin-bottom: 10px;
+       
+        
+
+    }
+
+    .open-times {
+        flex-direction: column; /* Change the direction to column for better stacking */
+        margin-bottom: 10px; /* Add margin for better spacing between items */
+        position: relative;
+    }
+
+    .open-times span:first-child {
+        margin-bottom: 5px; /* Add margin for better spacing between days and times */
+    }
+
+    #opening-box img {
+        max-width: 100%; /* Ensure the image remains fully visible */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
 }

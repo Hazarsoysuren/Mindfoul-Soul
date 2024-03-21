@@ -44,12 +44,29 @@ The users of this website will be able to navigate through three different pages
 
 
 ## Testing
-- I've confirmed that this site is responsive on all devices.
-- Its confirmed that all buttons and forms works as they should.
-- I have confirmed that the sites text is readable on all devices.
+### Features Testing
+| Feature | Testing |Outcome|
+|-----------------|-----------------|-----------------|
+| Navbar / Links| Click on navbar links| This brings the user down to intended section | 
+| Navbar / button| Click on the Button on the navbar | This overlays out an form for the user to fill once filled out and submitted a text will display|
+| Footer / Social media icons| Click on icons in the footer| This will take you to intended Social media site|
+| Contact us / Form | fill in or not the fields of the form | If not field in you will get a reminder too fill in, If filled in the Submit will be replaced with Sent|
+### Browser Testing
+| URL | Appearance |Responsiveness |
+|-----------------|-----------------|-----------------|
+| Chrome | Everything is placed good | Responsive design/ Good | 
+| Edge | Everything is placed good | Responsive design/ Good | 
+| Firefox | Everything is placed good | Responsive design/ Good | 
+### Responsive testing
+| Tested Device | Dimensions |Notes |
+|-----------------|-----------------|-----------------|
+| Iphone 14 pro| Site responsive Max-width: 935px | Results: Looks good, the about us image is gone to save up space. And the navbar is now toggle responsive| 
+| Ipad tablet|  Site responsive Max-width: 1180px | Results: Looks good, the about us image is gone to save up space. And the navbar is now toggle responsive| 
+| Nest hub| Site responsive Min-width: 1024px|Results: Looks good, the about us image is gone to save up space. And the navbar is now toggle responsive | 
+
 
 ### Unfixed Bugs
-There are currently no bugs as of what i know.
+- There are currently no bugs as of what i know.
 
 
 
@@ -58,8 +75,9 @@ There are currently no bugs as of what i know.
 ### Validator Testing
 | URL | Screenshot |Notes |
 |-----------------|-----------------|-----------------|
-| HTML |(https://validator.w3.org) | Pass: No Errors |
-| CSS | (https://validator.w3.org) | Pass: No Errors |
+| [HTML](https://validator.w3.org) |![Image of validator HTML](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/W3C%20validator-mindfoul.png?raw=true) | Pass: No Errors |
+| [CSS](https://jigsaw.w3.org/css-validator/)| ![Image of validator CSS](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/W3C-jigsaw.png?raw=true) | Pass: No Errors |
+| Lighthouse| ![Image of Lighthouse](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/W3C-jigsaw.png?raw=true) | N/A |
 
 ## Credits
 ### Content
