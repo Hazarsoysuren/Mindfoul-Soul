@@ -75,14 +75,16 @@ The users of this website will be able to navigate through three different pages
 ### Validator Testing
 | URL | Screenshot |Notes |
 |-----------------|-----------------|-----------------|
-| [HTML](https://validator.w3.org) |![Image of validator HTML](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/W3C%20validator-mindfoul.png?raw=true) | Pass: No Errors |
-| [CSS](https://jigsaw.w3.org/css-validator/)| ![Image of validator CSS](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/W3C-jigsaw.png?raw=true) | Pass: No Errors |
-| Lighthouse| ![Image of Lighthouse](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/W3C-jigsaw.png?raw=true) | N/A |
+| [HTML](https://validator.w3.org) |![Image of validator HTML](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/w3c-validator-mindfoul.png?raw=true) | Pass: No Errors |
+| [CSS](https://jigsaw.w3.org/css-validator/)| ![Image of validator CSS](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/w3c-jigsaw.png?raw=true) | Pass: No Errors |
+| Lighthouse| ![Image of Lighthouse](https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/lighthouse.png?raw=true) | N/A |
 
 ## Credits
-### Content
+### Reference
 - The design for the footer was an inspiration from Love Running project.
 - The popup form was taken from this tutorial (https://www.youtube.com/watch?v=gT58QZTOhns)
+- Used W3Schools to implement some sections of my website.
+- Stackoverflow was a good help to get this project done.
 ### Styling
 - Font
     - The font i used is poppins from [Google fonts](https://fonts.google.com)
@@ -94,6 +96,7 @@ The users of this website will be able to navigate through three different pages
 
 ### Acknowledgements
 - I want to give a Special thanks to Code Institute for its resources and a thanks to its community for the support.
+- I want to give a thanks to my mentor Spence for helping me through this project.
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the Settings tab
