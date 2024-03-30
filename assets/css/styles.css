@@ -228,7 +228,7 @@ main {
 #hero{
     height: 90vh;
     width: 100%;
-    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/hero.jpg) no-repeat center center/cover;
+    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/hero.jpg?raw=true) no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -259,7 +259,7 @@ main {
 }
 #about-us-img {
     width: 50%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/aboutus.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/aboutus.jpg?raw=true) no-repeat center center/cover;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     display: flex; 
     justify-content: center; 
@@ -315,7 +315,7 @@ main {
     height: 60vh;
     background-size: cover;
     position: relative;
-    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/opening.jpg)  no-repeat center center/cover;
+    background: /* Overlay with a semi-transparent black layer */ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://github.com/Hazarsoysuren/Mindfoul-Soul/blob/main/assets/images/opening.jpg?raw=true)  no-repeat center center/cover;
 
 }
 
